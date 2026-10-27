@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title, description,
   openGraph: { title, description, url: "/", siteName: site.name, locale: "en_IN", type: "website" },
   twitter: { card: "summary", title, description },
+    other: {
+    "facebook-domain-verification":
+      "o0ushpt5icxixu20k5o2ej3kiu8cj2",
+  },
 };
 export const viewport: Viewport = { themeColor: "#14532D", width: "device-width", initialScale: 1 };
 
